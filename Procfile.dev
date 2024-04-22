@@ -1,0 +1,2 @@
+cd client && trunk serve --open
+cd server && cargo watch -x run
