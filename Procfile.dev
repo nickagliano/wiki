@@ -1,2 +1,2 @@
-cd client && trunk serve --open
-cd server && cargo watch -x run
+web: cd client && trunk serve --open
+server: cd server && cargo watch -x run

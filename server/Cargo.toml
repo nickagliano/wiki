@@ -3,8 +3,6 @@ name = "wiki_server"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 actix-web = "4.4"
 config = "0.13"
@@ -15,3 +13,6 @@ serde = { version = "1.0.137", features = ["derive"] }
 tokio-pg-mapper = "0.2.0"
 tokio-pg-mapper-derive = "0.2.0"
 tokio-postgres = "0.7.6"
+diesel = { version = "2.1.0", features = ["postgres"] }
+
+[dev-dependencies]

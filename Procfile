@@ -1,2 +1,2 @@
-cd client && trunk serve
-cd server && cargo run
+web: cd client && trunk serve
+server: cd server && cargo run

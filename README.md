@@ -4,4 +4,4 @@ Personal wiki for learning data structures, algorithms, and literally anything e
 
 ## Contribute
 
-- See [/Contributing.md](/Contributing.md)
+- See [CONTRIBUTING.md](CONTRIBUTING.md)
